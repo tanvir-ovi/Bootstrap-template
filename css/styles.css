@@ -1,0 +1,174 @@
+/*
+========
+header
+========
+*/
+
+.header {
+	background-image: url(../img/bg-masthead.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 180px 0;
+	background-position: center;
+}
+.header h1 {
+	font-size: 3rem;
+	color: #ffffff;
+}
+@media (max-width: 990px) {
+	.header {
+		padding: 90px 0;
+	}
+	.header h1 {
+		font-size: 2rem;
+	}
+	.submit-btn {
+		margin-top: 7px;
+	}
+}
+
+/*
+=========
+features
+=========
+*/
+
+.features {
+	padding: 80px 0;
+}
+
+.features .features-icon:hover {
+	font-size: 17px;
+}
+
+.features-text p {
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(33, 37, 41);
+    font-size: 1.1rem;
+}
+@media (max-width: 990px) {
+	.features-pad {
+		margin-top: 50px;
+	}
+	.features {
+		padding: 50px 0;
+	}
+
+	.features-text p {
+    	width: 60%;
+    }
+}
+
+/*
+=========
+blog
+=========
+*/
+
+.bg-showcase1 {
+	background-image: url(../img/bg-showcase-1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 30rem;
+}
+.bg-showcase2 {
+	background-image: url(../img/bg-showcase-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 30rem;
+}
+.bg-showcase3 {
+	background-image: url(../img/bg-showcase-3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 30rem;
+}
+
+.blog-text {
+	padding: 180px 20px;
+}
+
+@media (max-width: 990px) {
+	.blog-text {
+		padding: 90px 0;
+	}
+	.blog-text p{
+	width: 80%;
+	margin: auto;
+	}
+}
+
+.blog-text p{
+	width: 70%;
+	margin: 0 auto;
+}
+
+/*
+=============
+testimonial
+=============
+*/
+
+.testimonial {
+	padding: 100px 0;
+}
+
+.testimonial-text p {
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(33, 37, 41);
+    font-size: 1rem;
+}
+
+.testimonial-img img {
+	max-width: 12rem;
+	box-shadow: 0px 6px 8px 0px
+}
+
+.testimonial h2 {
+	font-weight: 700;
+}
+
+/*
+=============
+Call to action
+=============
+*/
+
+.bg-call {
+	background-image: url(../img/bg-masthead.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 90px 0;
+	background-position: center;
+}
+.bg-call h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 2rem;
+	color: #ffffff;
+}
+/*
+=============
+footer
+=============
+*/
+
+.footer {
+	padding: 50px 0;
+}
+
+.footer p {
+	font-size: .8rem;
+}
+
+.footer ul {
+	margin: 0;
+}
+
+@media (max-width: 990px) {
+	.footer {
+		text-align: center;
+	}
+}
